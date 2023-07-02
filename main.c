@@ -55,38 +55,6 @@ int main(void) {
     } while (choice != 6);
     fclose(fptr);
     return 0;
-    // // users action
-    // int pick = 0;
-    // // write up
-    // printf("\tYour PhoneBook \n What would you like to do: \n");
-    // printf("\t1. Create Contact.\n\t2. Delete a Contact.\n\t3. Search for a contact.\n\t4. Print Contact list.\n\t5. Delete all Contacts.\n");
-    // printf("\n\tPick an action from 1 - 5: ");
-
-    // scanf("%d", &pick);
-
-    // switch (pick)
-    // {
-    //     case 1:
-    //         addcontact(fptr);
-    //         break;
-    //     case 2:
-    //         delete_contact(fptr);
-    //         break;
-    //     case 3:
-    //         hash_load(fptr);
-    //         break;
-    //     case 4:
-    //         contact_list(fptr);
-    //         break;
-    //     case 5:
-    //        delete_all_contact(fptr);
-    //         break;
-    //     default:
-    //         printf("Pick a valid Number.");
-    //         break;
-    // }
-
-   
 }
 
 void displayMenu() {
